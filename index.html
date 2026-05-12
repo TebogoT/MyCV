@@ -4,25 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="cvStyles.css">
 </head>
-<body>
-    <header>
-        <h1>Mathaba Tebogo Mola CV</h1>
-        <img src="/Profile.avif" alt="">
-    </header>
-    <main>
-        <section id="summary">
-            <h2>Summary</h2>
+<body class="container">
+    <header class="row">
+        <section class="col-md-4" id="header-section">
+            <img src="/Profile.avif" alt="Profile Image">
+        </section>
+        <section class="col-md-8" id="summary">
+            <h1>Mathaba Tebogo Mola CV</h1>
+            <h2 id="career-title">UI/UX Designer</h2>
+            <h2 class="sub-heading">Summary</h2>
             <p>Results-driven designer transitioning from BIM Modeling and technical drafting into UI/UX Design, bringing over 10 years of experience in visual problem-solving, system coordination, and user-centered design thinking. Skilled in transforming complex technical requirements into intuitive, functional, and visually engaging digital experiences through strong analytical thinking, creativity, and attention to detail. Experienced collaborating with multidisciplinary teams, optimizing workflows, and delivering accurate design solutions within fast-paced environments. Combines technical precision with design thinking to create seamless, accessible, and user-focused interfaces that balance usability with business and user needs. Passionate about crafting meaningful user experiences through research, wireframing, prototyping, and interaction design.</p>
         </section>
+    </header>
+    <main>
         <section id="contact">
-            <h2>Contact Information</h2>
+            <h2 class="sub-heading">Contact Information</h2>
             <p>Portfolio: <a href="https://tebogomolaportfolio.webflow.io/" target="_blank" rel="noopener noreferrer">https://tebogomolaportfolio.webflow.io/</a></p>
             <p>Email: teb.m.90@gmail.com</p>
             <p>Phone: (+27) 083 885 1668</p>
         </section>
         <section id="skills">
-            <h2>Skills</h2>
+            <h2 class="sub-heading">Skills</h2>
             <ul>
                 <li>User Research and Analysis</li>
                 <li>Wireframing and Prototyping</li>
@@ -35,7 +40,7 @@
         </section>
         <section id="experience">
             <div class="experience-item">
-                <h2>Experience</h2>
+                <h2 class="sub-heading">Experience</h2>
                 <h3>UI/UX Designer</h3>
                 <p><strong>A.Konekt</strong> - Location (June 2021 - November 2021)</p>
                 <ul>
@@ -49,7 +54,7 @@
                 <h3>UI/UX Designer</h3>
                 <p><strong>Batang Pixels</strong> - Location (December 2021 - April 2022)</p>
                 <ul>
-                    <li>Designed a simple and seamless responsive website that will serve as the client’s portfolio and a way to request their services.</li>
+                    <li>Designed a simple and seamless responsive website that will serve as the client`s portfolio and a way to request their services.</li>
                     <li>Carried out competitor research to iterate on early design concepts for the site to be competitive.</li>
                     <li>Communicated constantly with the client for their input to produce a satisfactory product.</li>
                 </ul>
@@ -65,7 +70,7 @@
             </div>
         </section>
         <section id="education">
-            <h2>Education</h2>
+            <h2 class="sub-heading">Education</h2>
             <p><strong>University of Johannesburg</strong> - Bachelor of Science in Construction Management (2010 - 2014)</p>
         </section>
     </main>
